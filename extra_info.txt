@@ -1,0 +1,11 @@
+UserInputValidator_program takes a list as paramater and checks for positive integers
+The class contains a method called validate_positive_integers() and a method called result().
+You will only need to call validate_positive_integers() as the result returns a description of the new list and is run together with validate_positive_integers().
+
+list_with_strings = ["22", "cake", "-10", "55"]
+
+Example:
+validator = UserInputValidator(list_with_strings)
+print(validator.validate_positive_integers())
+
+Output: ["22", "55"]
